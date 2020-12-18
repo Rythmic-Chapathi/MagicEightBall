@@ -1,0 +1,55 @@
+print("Welcome to the magic 8ball!!!!")
+playername=input("Whats your name?")
+print('Hello '+playername+"!")
+import random
+a=["As I see it, yes", 
+"Ask again later",
+"Better not tell you now", 
+"Cannot precict now",
+"Concentrate and ask again", 
+"Don't count on it",
+"It is certian",
+"It is decidedly so",  
+"Most likley",
+"My reply is no", 
+"My sources say no", 
+"Outlook not so good.", 
+"Outlook good.", 
+"Relpy hazy, try again",  
+"Signs point ot yes", 
+"Very dobutful.",
+"Without a dobut",  
+"Yes", 
+"Yes -- definetly", 
+"You may rely on it"]
+while True:
+    b=input("Ask the magic 8 ball your question")
+    c=random.choice(a)
+    print(f"The magic 8 ball says...{c}")print("Welcome to the magic 8ball!!!!")
+playername=input("Whats your name?")
+print('Hello '+playername+"!")
+import random
+a=["As I see it, yes", 
+"Ask again later",
+"Better not tell you now", 
+"Cannot precict now",
+"Concentrate and ask again", 
+"Don't count on it",
+"It is certian",
+"It is decidedly so",  
+"Most likley",
+"My reply is no", 
+"My sources say no", 
+"Outlook not so good.", 
+"Outlook good.", 
+"Relpy hazy, try again",  
+"Signs point ot yes", 
+"Very dobutful.",
+"Without a dobut",  
+"Yes", 
+"Yes -- definetly", 
+"You may rely on it"]
+while True:
+    b=input("Ask the magic 8 ball your question")
+    c=random.choice(a)
+    print(f"The magic 8 ball says...{c}")
